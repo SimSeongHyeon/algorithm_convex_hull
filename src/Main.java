@@ -126,7 +126,7 @@ public class Main {
             Point pi = convexHull.get(convexHull.size() - 1);
             Point pj = convexHull.get(0);
             writer.println("line " + "\"l" + k +"\" (" + pi.x + "," + pi.y + ") (" + pj.x + "," + pj.y + ")");
-
+            //test
             writer.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
